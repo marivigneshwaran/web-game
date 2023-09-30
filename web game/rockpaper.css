@@ -1,0 +1,55 @@
+.fa-hand-rock,
+.fa-hand-paper,
+.fa-hand-scissors {
+  font-size: 4rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.glow {
+	font-size: 60px;
+	color:blue;
+	text-align: center;
+	animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+	from {
+	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	}
+   
+  }
+
+.modal-body ul li i {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.boards,
+.select {
+  display: none;
+}
+
+#playerSide,
+#computerSide {
+  height: 225px;
+}
+
+body {
+  height: 100%;
+  background-color:bisque;
+}
+
+footer {
+  clear: both;
+  border: 1px groove #aaaaaa;
+  background: blue;
+  color: White;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: normal;
+  margin: 0;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
